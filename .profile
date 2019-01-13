@@ -6,3 +6,4 @@ export LANG=en_US.UTF-8
 export SHELL=/bin/zsh
 export EDITOR=vim
 export VISUAL=vim
+export PAGER=less
