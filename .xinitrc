@@ -11,6 +11,10 @@ synclient VertTwoFingerScroll=1 HorizTwoFingerScroll=1
 synclient PalmDetect=1 PalmMinWidth=10 PalmMinZ=0
 synclient MinSpeed=0.5 MaxSpeed=1.5 AccelFactor=0.05
 
+redshift-gtk &
+nm-applet &
+blueman-applet &
+
 dwm-status &
 dwm-wallpaper &
 xcompmgr &
