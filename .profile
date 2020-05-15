@@ -8,3 +8,4 @@ export EDITOR=vim
 export VISUAL=vim
 export PAGER=less
 export BROWSER=chromium
+export MAILER=mutt
