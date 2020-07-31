@@ -9,3 +9,7 @@ export VISUAL=vim
 export PAGER=less
 export BROWSER=chromium
 export MAILER=mutt
+
+if [ -z "${DISPLAY-}" ] && [ "$(tty)" = /dev/tty1 ]; then
+	exec startx
+fi
